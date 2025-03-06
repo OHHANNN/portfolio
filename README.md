@@ -37,16 +37,16 @@ cd your-portfolio
 
 ### **2️⃣ Install dependencies**
 
-npm install
-or
-yarn install
-or
-pnpm install
+```sh
+$ npm install
+$ yarn install
+$ pnpm install
+```
 
 ### **3️⃣ Start the development server**
 
-npm run dev
-or
-yarn dev
-or
-pnpm dev
+```sh
+$ npm run dev
+$ yarn dev
+$ pnpm dev
+```
