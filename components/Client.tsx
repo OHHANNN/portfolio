@@ -17,11 +17,11 @@ export const Client = () => {
           speed="low"
         />
 
-        <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg: mt-10">
+        <div className="max-lg: mt-10 flex flex-wrap items-center justify-center gap-4 md:gap-16">
           {companies.map(({ id, img, name, nameImg }) => (
-            <div key={id} className="flex md:max-w-60 max-w-32 gap-2">
-              <img src={img} alt={name} className="md:w-10 w-5" />
-              <img src={nameImg} alt={name} className="md:w-24 w-20" />
+            <div key={id} className="flex max-w-32 gap-2 md:max-w-60">
+              <img src={img} alt={name} className="w-5 md:w-10" />
+              <img src={nameImg} alt={name} className="w-20 md:w-24" />
             </div>
           ))}
         </div>

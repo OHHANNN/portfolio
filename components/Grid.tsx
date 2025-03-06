@@ -28,7 +28,7 @@ const Grid = () => {
               imgClassName={imgClassName}
               titleClassName={titleClassName}
             />
-          )
+          ),
         )}
       </BentoGrid>
     </section>
